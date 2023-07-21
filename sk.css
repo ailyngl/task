@@ -1,0 +1,130 @@
+*{
+    margin: 0; 
+    padding: 0;
+    
+ }
+ .content{
+     text-align:center
+ }
+ .content h1{
+     font-size: 50px;
+     color: white;
+     font-family: Impact;
+     font-weight: 50;
+ }
+ .Background{
+     background:url(09.jpg);
+     background-size: cover;
+     background-position: center;
+     height: 50vh;
+ }
+ 
+ .container{
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%,-50%);
+     text-align: center;
+ }
+ .btn{
+     border: none;
+     margin: 20px;
+     padding: 24px;
+     width: 220px;
+     font-family: Arial;
+     font-size:medium;
+     text-transform: uppercase;
+     border-radius: 6px;
+     cursor: pointer;
+     color: #fff;
+     background-size: 200%;
+     transition: 0.6s;
+ 
+ }
+ .schedule h2{
+     font-size: 30px;
+     color: white;
+     font-family: Impact;
+     font-weight: 50;
+     display:inline-block;
+     width: 500px;
+     text-align: center;
+ }
+ .schedule h2{
+     text-decoration: none;
+     display: inline-block;
+     text-align: center;
+     color: white;
+     font-size: 20px;
+     border: 2px solid #fff;
+     padding: 14px 17px;
+     border-radius: 50px;
+     background-image:linear-gradient(#d9d2e9)
+     
+ }
+ .schedule h2{
+     font-size: 20px;
+     color: white;
+     font-family: Impact;
+     display: inline-block;
+     width: 500px;
+     background-color: gray;
+     height: 20px;
+     text-align: center;
+     text-align: center;
+ }
+ .schedule P{
+     font-size: 20px;
+     color: #fff;
+     display: inline block;
+     text-align: center;
+     background-color: transparent;
+     border: 2px solid #fff;
+     border-radius: 10px;
+     background-image: linear-gradient(to left,#EA2027,#EE5A24,);
+ }
+ .btn1{
+     background-image: linear-gradient(to left,#FFC312,#EE5A24,#FFC312);
+ }
+ .btn2{
+     background-image: linear-gradient(to left,#C4E538,#009432,#C4E538);
+ }
+ .btn3{
+     background-image: linear-gradient(to left,#12cbc4,#F79F1F,#12cbc4);
+ }
+ .btn4{
+     background-image: linear-gradient(to left,#C4E538,#ee5a24,#C4E538);
+ }
+ .btn5{
+     background-image: linear-gradient(to left,#A3CB38,#0652DD,#A3CB38);
+ }
+ 
+ .btn:hover{
+     background-position: right;
+ }
+ 
+ @media (max-width: 480px) {
+     /* Adjust styles for screens up to 480px wide (cellphone screens) */
+     .content h1 {
+         font-size: 8vw; /* Adjusted font-size for smaller screens */
+     }
+ 
+     .btn {
+         width: 80%; /* Adjusted width for smaller screens */
+         font-size: 4vw; /* Adjusted font-size for smaller screens */
+         padding: 16px;
+     }
+ 
+     .schedule h2 {
+         width: 80%; /* Adjusted width for smaller screens */
+         font-size: 5vw; /* Adjusted font-size for smaller screens */
+     }
+ 
+     .schedule p {
+         font-size: 4vw; /* Adjusted font-size for smaller screens */
+     }
+ 
+     .Background {
+         height: 40vh;
+     }
+ }
